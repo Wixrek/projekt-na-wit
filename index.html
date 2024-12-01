@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+        <style>
+            body {
+                background-color: lightblue; 
+                color: #000080; 
+            }
+            .nav_button {
+                width: 50%; 
+                display: inline-block; 
+            }
+            .nav_button button {
+                background-color: navy;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 5px;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                width: 100%; 
+            }
+            .nav_button button:hover {
+                background-color: #5f9ea0;
+            }
+            h1 {
+                color: #000080;
+                text-align: center;
+                border-bottom: 5px solid #000080; 
+                padding: 10px; 
+                margin: 0; 
+            }
+            #nav {
+                background-color: lightblue;
+                display: flex; 
+                justify-content: space-between;
+                width: 100%; 
+                padding: 10px; 
+                border: none; 
+            }
+            iframe {
+                border: 2px solid #000080;
+                width: 100%; 
+            }
+            table {
+                width: 100%; 
+                border-collapse: collapse; 
+            }
+            th, td {
+                border: 1px solid #000080; 
+                padding: 8px; 
+                text-align: left; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Klasa 1P</h1>
+        <table>
+            <tbody id="students">
+            </tbody>
+        </table>
+        <div id="nav">
+            <a href="./sites/students/students.html" target="main" class="nav_button"><button type="button">Students</button></a>
+            <a href="./sites/tests/tests.html" target="main" class="nav_button"><button type="button">Tests</button></a>
+        </div>
+
+        <iframe src="./sites/students/students.html" id="main" name="main" height="900lvh"></iframe>
+    </body>
+</html>

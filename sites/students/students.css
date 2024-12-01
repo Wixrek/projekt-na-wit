@@ -1,0 +1,80 @@
+td, th {
+    border: 1px solid black;
+}
+
+
+.grade_input {
+    width: 20px;
+    text-align: center;
+    border: 0px;
+}
+
+.student_row { 
+    /* <tr> tag with student data */
+}
+
+.student_name {
+    /* <td> tag with the students name */
+}
+
+.grade {
+    /* <td> tag with one grade_input */
+    width: 20px;
+    text-align: center;
+}
+
+.grade_input {
+    /* <input> tag with one grade */
+    width: 20px;
+    text-align: center;
+    border: 0px;
+}
+
+.note {
+    /* <td> tag with one note_button or empty */
+}
+
+.note_button {
+    /* <button> tag with the note's title */
+}
+
+.note_add {
+    /* <td> tag with one new_note_button */
+}
+
+.new_note_button {
+    /* <button> that adds a new note */
+}
+
+.note_title {
+    /* <h1> tag that displays a given note's title */
+}
+
+.note_description {
+    /* <p> tag that displays a given note's description */
+}
+
+.new_note_title_label {
+    /* <label> tag for inputing a new note's title */
+}
+
+.new_note_title {
+    /* <input> tag for inputing a new note's title */
+}
+
+.new_note_description_label {
+    /* <label> tag for inputing a new note's description */
+}
+
+.new_note_description {
+    /* <textarea> tag for inputing a new note's description */
+}
+
+.add_note_button {
+    /* <button> tag for submiting a new note */
+}
+
+
+.success_header {
+    /* <h1> tag added when a note is successfully added */
+}

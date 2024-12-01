@@ -1,0 +1,76 @@
+
+            #header {
+                text-align: center; 
+                border: 5px solid mediumblue; 
+                padding: 10px; 
+                margin-bottom: 20px; 
+            }
+            table {
+                width: 100%; 
+                border-collapse: collapse; 
+            }
+            th, td {
+                border: 4px solid black; 
+                padding: 8px; 
+                text-align: center; 
+            }
+
+
+
+
+
+.calendar_row {
+    /* <tr> tag containing multiple calendar cells */
+}
+
+.empty_calendar_cell {
+    /* <td> tag without a value */
+}
+
+.calendar_cell {
+    /* <td> tag with a day as plain text, display test buttons and one create test button */
+}
+
+.create_new_test_button {
+    /* <button> tag that creates a new test */
+}
+
+.new_test_title_label {
+    /* <label> tag for inputting a test's title */
+}
+
+.new_test_title {
+    /* <input> tag for inputting a test's title */
+}
+
+.new_test_description_label {
+    /* <label> tag for inputting a test's description */
+}
+
+.new_test_descriptionv {
+    /* <input> tag for inputting a test's description */
+}
+
+.add_test_button {
+    /* <button> tag for adding a test with a given title and description */
+}
+
+.display_test_button {
+    /* <button> tag that displays info about a test */
+}
+
+.test_title {
+    /* <h1> tag that contains the title of a displayed test */
+}
+
+.test_date {
+    /* <h3> tag that contains the date of a displayed test */
+}
+
+.test_description {
+    /* <p> tag that contains the description of a displayed test */
+}
+
+.success_header {
+    /* <h1> tag added when a test is successfully added */
+}
